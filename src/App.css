@@ -1,38 +1,259 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+body {
+  padding-top: 70px; /* Adjust this value to match the navbar’s height */
+}
+
+.navbar-link {
+  color: #1d1e1f;
+  font-weight: 500;
+}
+
+.navbar-link:hover,
+nav-link.active {
+  color: black;
+}
+
+.carousel-container-1 {
+  padding-top: 70px;
+  height: 500px;
+}
+
+.carousel-item.active {
+  margin-top: 50px;
+}
+
+.login-button {
+  font-size: 16px;
+  margin: 26px;
+  color: black;
+  text-decoration: none;
+}
+
+h2.carousel_capital {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+}
+
+button.btn1 {
+  background-color: rgb(248, 192, 88);
+  height: 40px;
+  width: 120px;
+  font-size: 18px;
+  color: white;
+  border-radius: 4px;
+  margin-left: -669px;
+}
+
+button.btn2 {
+  background-color: skyblue;
+  height: 40px;
+  width: 120px;
+  font-size: 18px;
+  border-radius: 4px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel-item img {
+  max-height: 400px;
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img.d-block {
+  width: 620px;
+  height: 350px;
+  margin-right: 60px;
+}
+
+.carousel_capital {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h1 {
+  padding-top: 102px;
+  padding-left: 80px;
+}
+
+p {
+  padding-left: 80px;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.card-data-container {
+  margin: 0 60px;
+  margin-top: 100px;
+
+  background-color: rgb(248, 243, 243);
+}
+
+.card {
+  border: none;
+  width: 18rem;
+  margin-left: 160px;
+  border-radius: 5px;
+}
+
+.col-md-4 {
+  padding-top: 60px;
+  padding-left: 50px;
+  border: none;
+  width: 394px;
+}
+
+img.card-img-top {
+  height: 300px;
+
+  padding-top: 60px;
+}
+
+.AboutUs-container {
+  padding-top: 200px;
+  box-shadow: #afbdda;
+}
+
+.aboutusImg {
+  height: 350px;
+  width: 650px;
+  float: left;
+}
+
+.AboutHeading {
+  padding-top: 99px;
+  font-weight: bold;
+}
+
+.AboutBtn {
+  width: 140px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 20px;
+  background-color: rgb(139, 236, 236);
+  color: white;
+}
+
+h2.textheading {
+  padding-top: 191px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.section-card-container2 {
+  padding-top: 20px;
+}
+
+img.card-img-1 {
+  width: 400px;
+  padding-left: 80px;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+  margin-left: 82px;
+}
+
+.card-text {
+  width: 400px;
+}
+
+.card-text-blog {
+  width: 400px;
+  text-align: left;
+}
+
+.card-body {
+  width: 400px;
+}
+
+button.btn.btn-primary {
+  margin-left: 140px;
+}
+
+.testimonial-container {
+  padding-top: 90px;
+}
+
+.testimonial-heading {
+  text-align: center;
+  font-size: 40px;
+
+  font-weight: 500;
+}
+
+.client {
+  height: 250px;
+  width: 1200px;
+  border: 1px solid gray;
+  margin-left: 200px;
+  float: center;
+  margin-top: 50px;
+  box-shadow: 10 10 10 10 grey;
+}
+
+.clientImg {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  border: 10px solid aquamarine;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.invertedComma {
+  font-size: 40px;
+  margin-left: 350px;
+  margin-top: -150px;
+  line-height: 0;
+}
+
+.clientName {
+  margin-left: 310px;
+  color: rgb(72, 224, 224);
+}
+
+p.data {
+  padding: 10px 0 0 303px;
+}
+
+.contactForm {
+  margin-top: 130px;
+}
+
+.form-label {
+  padding-top: 20px;
+}
+
+.Contact-form {
+  font-size: 40px;
+  font-weight: 500px;
+}
+
+.form-control {
+  width: 500px;
+}
+
+.navigation {
+}
+
+.container.p-4 {
+  margin-top: 108px;
+  margin-left: 2px;
+}
+
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+  margin-right: 100px;
 }
