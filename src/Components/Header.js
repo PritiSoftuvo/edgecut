@@ -5,8 +5,8 @@ function Header() {
   return (
     <>
       <header>
-        <nav className="navbar navbar-expand-lg">
-          <div className="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
             <Link to="/" className="navbar-brand me-auto">
               <strong>EDGECUT</strong>
             </Link>

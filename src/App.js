@@ -6,8 +6,8 @@ import Section1 from './Components/Section1'
 import Cards from './Components/Cards'
 import About from './Components/About'
 import Blog from './Components/Blog'
-import Test from './Components/Test'
-import Contact from './Components/Contact'
+// import Test from './Components/Test'
+// import Contact from './Components/Contact'
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
         <Cards />
         <About />
         <Blog />
-        <Test />
-        <Contact />
+        {/* <Test />
+        <Contact />  */}
       </Router>
     </>
   )

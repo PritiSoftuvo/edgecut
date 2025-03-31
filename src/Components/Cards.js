@@ -9,15 +9,17 @@ import f6 from './../../src/assets/images/f6.png'
 function Cards() {
   return (
     <>
-      <section>
-        <div className="card-data-container">
-          <h1>Our Furniture</h1>
-          <p>
-            which don't look even slightly believable. If you are going to use a
-            passage of Lorem Ipsum, you need to be sure there isn't an
-          </p>
+      <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <h1 className="CardHeading">Our Furniture</h1>
+            <p>
+              which don't look even slightly believable. If you are going to use
+              a passage of Lorem Ipsum, you need to be sure there isn't an
+            </p>
+          </div>
 
-          <section className="card-container">
+          <section className="container">
             <div className="row">
               <div className="col-md-4">
                 {/* <!-- Card Start 1--> */}
@@ -25,12 +27,13 @@ function Cards() {
                   <img src={f1} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">Brown Chair Design</h5>
-                    <p className="card-text">$ 100.00</p>
-                    <button className="btn btn-primary">Buy Nw</button>
+                    <p className="card-text-1">$ 100.00</p>
+                    <button className="buynowbtn">Buy Now</button>
                   </div>
                 </div>
-                {/* <!-- Card End --> */}
               </div>
+
+              {/* <!-- Card End --> */}
 
               <div className="col-md-4">
                 {/* <!-- Card Start 2--> */}
@@ -39,7 +42,7 @@ function Cards() {
                   <div className="card-body">
                     <h5 className="card-title">Double Bed Design</h5>
                     <p className="card-text">$ 200.00</p>
-                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="buynowbtn">Buy Now</button>
                   </div>
                 </div>
                 {/* <!-- Card End --> */}
@@ -51,8 +54,8 @@ function Cards() {
                   <img src={f3} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">House Chair Design</h5>
-                    <p className="card-text">$ 200.00</p>
-                    <button className="btn btn-primary">Buy Now</button>
+                    <p className="card-text-1">$ 200.00</p>
+                    <button className="buynowbtn">Buy Now</button>
                   </div>
                 </div>
                 {/* <!-- Card End --> */}
@@ -69,8 +72,8 @@ function Cards() {
                   <img src={f4} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">Brown Table Design</h5>
-                    <p className="card-text">$ 100.00</p>
-                    <button className="btn btn-primary">Buy Now</button>
+                    <p className="card-text-1">$ 100.00</p>
+                    <button className="buynowbtn">Buy Now</button>
                   </div>
                 </div>
                 {/* <!-- Card End --> */}
@@ -82,8 +85,8 @@ function Cards() {
                   <img src={f5} className="card-img-top" alt="..." />
                   <div className="card-body">
                     <h5 className="card-title">Blue Chair Design</h5>
-                    <p className="card-text">$ 200.00</p>
-                    <button className="btn btn-primary">Buy Now</button>
+                    <p className="card-text-1">$ 200.00</p>
+                    <button className="buynowbtn">Buy Now</button>
                   </div>
                 </div>
                 {/* <!-- Card End --> */}
@@ -96,9 +99,9 @@ function Cards() {
 
                   <div className="card-body">
                     <h5 className="card-title">Dressing Table</h5>
-                    <p className="card-text">$ 200.00</p>
+                    <p className="card-text-1">$ 200.00</p>
 
-                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="buynowbtn">Buy Now</button>
                   </div>
                 </div>
                 {/* <!-- Card End --> */}
@@ -106,7 +109,7 @@ function Cards() {
             </div>
           </section>
         </div>
-      </section>
+      </div>
     </>
   )
 }

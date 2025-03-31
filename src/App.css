@@ -1,123 +1,85 @@
 .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-body {
-  padding-top: 70px; /* Adjust this value to match the navbar’s height */
-}
-
-.navbar-link {
-  color: #1d1e1f;
-  font-weight: 500;
-}
-
-.navbar-link:hover,
-nav-link.active {
-  color: black;
-}
-
-.carousel-container-1 {
-  padding-top: 70px;
-  height: 500px;
-}
-
-.carousel-item.active {
   margin-top: 50px;
 }
 
-.login-button {
-  font-size: 16px;
-  margin: 26px;
-  color: black;
-  text-decoration: none;
+.row {
+  background-color: rgb(252, 248, 248);
+  /* height: 500px; */
 }
 
-h2.carousel_capital {
-  text-align: left;
+.SecHeading {
+  align-items: left;
+  margin-top: 80px;
+  font-size: 40px;
+  margin-left: 100px;
 }
 
-p {
-  text-align: left;
-}
-
-button.btn1 {
-  background-color: rgb(248, 192, 88);
-  height: 40px;
-  width: 120px;
-  font-size: 18px;
-  color: white;
-  border-radius: 4px;
-  margin-left: -669px;
-}
-
-button.btn2 {
-  background-color: skyblue;
-  height: 40px;
-  width: 120px;
-  font-size: 18px;
-  border-radius: 4px;
-  color: white;
-}
-
-.carousel-item img {
-  max-height: 400px;
+.sliderImg {
+  width: 700px;
   float: right;
+  margin-top: 50px;
 }
 
-img.d-block {
-  width: 620px;
-  height: 350px;
-  margin-right: 60px;
+.sectiondata {
+  margin-left: 100px;
+  padding-top: 20px;
 }
 
-.carousel_capital {
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-h1 {
-  padding-top: 102px;
-  padding-left: 80px;
-}
-
-p {
-  padding-left: 80px;
-  padding-top: 30px;
-  font-size: 20px;
-}
-
-.card-data-container {
-  margin: 0 60px;
-  margin-top: 100px;
-
-  background-color: rgb(248, 243, 243);
-}
-
-.card {
-  border: none;
-  width: 18rem;
-  margin-left: 160px;
+.btn1 {
+  height: 40px;
+  width: 120px;
+  margin-left: 130px;
+  background-color: rgb(98, 198, 238);
   border-radius: 5px;
 }
 
+.btn2 {
+  height: 40px;
+  width: 120px;
+  margin-left: 10px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+/********* Cards Section ***************** */
+
+.card {
+  border: none;
+  width: 22rem;
+  height: 28rem;
+  align-items: center;
+}
+
+.CardHeading {
+  margin: 30px 40px;
+}
+
 .col-md-4 {
-  padding-top: 60px;
-  padding-left: 50px;
+  padding-top: 20px;
+  padding-left: 90px;
   border: none;
   width: 394px;
 }
 
-img.card-img-top {
+.card-img-top {
   height: 300px;
-
+  width: 280px;
   padding-top: 60px;
 }
 
-.AboutUs-container {
-  padding-top: 200px;
-  box-shadow: #afbdda;
+.buynowbtn {
+  margin-left: 170px;
+  align-items: end;
+  border-radius: 5px;
+}
+
+/* ****************About Section*************** */
+
+.row-3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .aboutusImg {
@@ -127,8 +89,8 @@ img.card-img-top {
 }
 
 .AboutHeading {
-  padding-top: 99px;
   font-weight: bold;
+  margin-top: 50px;
 }
 
 .AboutBtn {
@@ -140,13 +102,21 @@ img.card-img-top {
   color: white;
 }
 
+.aboutdetail {
+  padding-right: 50px;
+}
+
 h2.textheading {
   padding-top: 191px;
   text-align: center;
   font-size: 40px;
 }
 
-.section-card-container2 {
+.allaboutus {
+  padding-left: 20px;
+}
+
+/* .section-card-container2 {
   padding-top: 20px;
 }
 
@@ -179,9 +149,9 @@ h5 {
 
 button.btn.btn-primary {
   margin-left: 140px;
-}
+} */
 
-.testimonial-container {
+/* .testimonial-container {
   padding-top: 90px;
 }
 
@@ -256,4 +226,4 @@ p.data {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
   margin-right: 100px;
-}
+} */
