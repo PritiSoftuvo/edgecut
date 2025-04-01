@@ -41,7 +41,7 @@ function Section1() {
                 <h3 className="SecHeading">
                   FOR ALL YOUR <br /> FURNITURE NEED
                 </h3>
-                <p>
+                <p className="sectiondata">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   <br /> Minus quidem maiores perspiciatis, illo maxime
                   <br /> voluptatem a itaque suscipit.
@@ -63,7 +63,7 @@ function Section1() {
                 <h3 className="SecHeading">
                   FOR ALL YOUR <br /> FURNITURE NEED
                 </h3>
-                <p>
+                <p className="sectiondata">
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   <br /> Minus quidem maiores perspiciatis, illo maxime
                   <br /> voluptatem a itaque suscipit.

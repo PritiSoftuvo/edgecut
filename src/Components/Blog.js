@@ -11,11 +11,11 @@ function Blog() {
           <h2 className="textheading"> LATEST BLOG</h2>
         </div>
 
-        <div className="container2">
+        
           <div className="row">
             <div className="col-md-4">
               {/* <!-- Card Start 1--> */}
-              <div className="card" style={{ width: '15rem' }}>
+              <div className="card">
                 <img src={b1} className="card-img-1" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title-blog">
@@ -28,8 +28,6 @@ function Blog() {
                   </p>
 
                   <button className="btn btn-primary">Read More</button>
-
-                  {/* <a href="#" className="btn btn-primary">Read More</a> */}
                 </div>
               </div>
             </div>
@@ -37,7 +35,7 @@ function Blog() {
 
             <div className="col-md-4">
               {/* <!-- Card Start 2--> */}
-              <div className="card" style={{ width: '15rem' }}>
+              <div className="card">
                 <img src={b2} className="card-img-1" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title-blog">
@@ -56,7 +54,7 @@ function Blog() {
 
             <div className="col-md-4">
               {/* <!-- Card Start 3--> */}
-              <div className="card" style={{ width: '15rem' }}>
+              <div className="card">
                 <img src={b3} className="card-img-1" alt="..." />
                 <div className="card-body">
                   <h5 className="card-title-blog">
@@ -74,7 +72,7 @@ function Blog() {
             </div>
             {/* <!-- Card End --> */}
           </div>
-        </div>
+        
       </div>
     </>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import about from './../../src/assets/images/about-img.png'
+
 function About() {
   return (
     <>

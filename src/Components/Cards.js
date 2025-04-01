@@ -13,7 +13,7 @@ function Cards() {
         <div className="row">
           <div className="col-md-12">
             <h1 className="CardHeading">Our Furniture</h1>
-            <p>
+            <p className='card-Text'>
               which don't look even slightly believable. If you are going to use
               a passage of Lorem Ipsum, you need to be sure there isn't an
             </p>

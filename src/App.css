@@ -43,6 +43,11 @@
 
 /********* Cards Section ***************** */
 
+.card-Text{
+  margin-left: 30px;
+
+}
+
 .card {
   border: none;
   width: 22rem;
@@ -107,7 +112,7 @@
 }
 
 h2.textheading {
-  padding-top: 191px;
+  padding-top: 70px;
   text-align: center;
   font-size: 40px;
 }
@@ -116,59 +121,33 @@ h2.textheading {
   padding-left: 20px;
 }
 
-/* .section-card-container2 {
-  padding-top: 20px;
+.card-img-1 {
+ max-height: 280px;
+ max-width: 100%;
+  justify-content: center;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 
-img.card-img-1 {
-  width: 400px;
-  padding-left: 80px;
-}
-
-h5 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  line-height: 1.2;
-  color: var(--bs-heading-color);
-  margin-left: 82px;
-}
-
-.card-text {
-  width: 400px;
-}
-
-.card-text-blog {
-  width: 400px;
-  text-align: left;
-}
-
-.card-body {
-  width: 400px;
-}
-
-button.btn.btn-primary {
-  margin-left: 140px;
-} */
-
-/* .testimonial-container {
-  padding-top: 90px;
-}
 
 .testimonial-heading {
   text-align: center;
   font-size: 40px;
-
   font-weight: 500;
+  padding-top: 40px;
+}
+
+.row-client {
+  padding: 16px 96px;
 }
 
 .client {
   height: 250px;
   width: 1200px;
   border: 1px solid gray;
-  margin-left: 200px;
-  float: center;
-  margin-top: 50px;
+  /* margin-left: 200px; */
+  /* float: center; */
+  /* margin-top: 50px; */
   box-shadow: 10 10 10 10 grey;
 }
 
@@ -177,53 +156,63 @@ button.btn.btn-primary {
   width: 200px;
   border-radius: 200px;
   border: 10px solid aquamarine;
-  margin-left: 50px;
-  margin-top: 30px;
+  /* margin-left: 50px;
+  margin-top: 30px; */
+  float: right;
 }
 
-.invertedComma {
+/* .invertedComma {
   font-size: 40px;
   margin-left: 350px;
   margin-top: -150px;
   line-height: 0;
-}
+} */
 
 .clientName {
-  margin-left: 310px;
+  /* margin-left: 310px; */
   color: rgb(72, 224, 224);
 }
-
+/* 
 p.data {
   padding: 10px 0 0 303px;
-}
+} */
 
-.contactForm {
-  margin-top: 130px;
-}
-
-.form-label {
-  padding-top: 20px;
+ .contactForm {
+  margin-top: 20px;
 }
 
 .Contact-form {
   font-size: 40px;
   font-weight: 500px;
+  padding: 0 0 0 30px;
+}
+
+.form-label{
+  padding-left: 10px;
+  padding-top: 20px;
 }
 
 .form-control {
-  width: 500px;
+ padding-left: 10px;
+  
 }
 
-.navigation {
-}
 
-.container.p-4 {
+/* .container.p-4 {
   margin-top: 108px;
   margin-left: 2px;
-}
+} */
 
-.my-5 {
+/* .my-5 {
   margin-top: 3rem !important;
   margin-bottom: 3rem !important;
   margin-right: 100px;
-} */
+}   */
+
+a.icon.btn.btn-floating.btn-warning.btn-lg {
+  /* padding-left: 21px; */
+  margin: 0px 6px;
+}
+.footer-text {
+  margin-top:24px;
+}
